@@ -1,4 +1,7 @@
-# ClassificationDRvsDS_SVM
+# Classification DRvsDS _using  a RF model
+
+
+# Classification DRvsDS_using a SVM model
 load the test data and training data first, then using SVM classifier to perform classification.
 testData.mat is the test data with 25 clincial and radiological features.
 trainData.mat is the train data with 25 clinical and radiological features.
