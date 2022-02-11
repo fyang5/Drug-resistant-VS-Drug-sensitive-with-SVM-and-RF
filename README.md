@@ -1,7 +1,7 @@
 # Classification of clinical text data as drug-resistant TB (DR-TB) or drug-sensitive TB (DS-TB) using a RF model
 This directory contains code training and inference using demographic features and radiological features from clinical text data to predict DR-TB vs DS-TB
 
-###Training and validation
+## Training and validation
 RFClassifier_DemographEtRadiol.m , using ten-fold cross validation to train Random Forest (RF) models based on 7 degmographic features and 25 radiological features from 9 folds and validate on one fold. Performances such as AUC, accuracy, specificity, sensitivity, precision, etc are calculated.
 
 RFClassifier_DemographEtRadiol.m requires an input CSV file which contains columns including demographic features (such age, gender, education, etc.) and radiological features (such as nodule, cavity, infiltrate, etc.). A CSV file example is put in the directory, named "2622Patients.csv". Users can change this csv file name in line 8.
