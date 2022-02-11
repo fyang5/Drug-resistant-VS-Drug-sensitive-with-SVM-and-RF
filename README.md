@@ -15,3 +15,7 @@ Description of arguments above:
 To infer on the files, user has to provide input_filenames.csv (with demographic feature columns or/and radiological feature columns).
  - Users can change this csv file name in line 8. 
  - Users can adjust the features by changing line 20 (demographic features) and line 72 (radiological features)
+
+```
+run RFClassifier_DemographEtRadiol.m
+```
