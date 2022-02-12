@@ -4,6 +4,7 @@
 % Feng Yang, NLM, Feb 24, 2020.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 clear all; clc; close all;
+thre = 0.45;
 load ('RFClassifier.mat')
 filename1 = '2622Patients.csv';
 part1 = readtable(filename1,'FileType','spreadsheet','PreserveVariableNames',1,'Sheet',1);
