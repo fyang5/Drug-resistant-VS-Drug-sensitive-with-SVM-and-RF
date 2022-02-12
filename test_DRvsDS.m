@@ -6,7 +6,7 @@
 clear all; clc; close all;
 thre = 0.45;
 load ('RFClassifier.mat')
-filename1 = '2622Patients.csv';
+filename1 = 'test.csv';
 part1 = readtable(filename1,'FileType','spreadsheet','PreserveVariableNames',1,'Sheet',1);
 xtypeRS = part1.type_of_resistance;
 %%
