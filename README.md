@@ -13,8 +13,7 @@ Description of arguments above:
 ## Inference
 
 To infer on the files, user has to provide input_filenames.csv (with demographic feature columns or/and radiological feature columns).
- - Users can change this csv file name in line 9. 
- - Users must use the same features as shown 2622Patients.csv in from columns 5-15, 40-65.
+ - Users should provide a test.csv file, in which features in columns 5-15 and 40-65 are the same as 2622Patients.csv file.
 
 ```
 run test_DRvsDS.m
